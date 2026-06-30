@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupaso SDA Church</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo.png" alt="Lupaso SDA" width="40" class="me-2" style="border-radius: 50%;"> 
+                LUPASO SDA CHURCH
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sermons</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ministries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center text-white d-flex align-items-center" style="background-image: url('church.png'); background-size: cover; background-position: center; background-size: 100% auto;">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">LUPASO SEVENTH-DAY ADVENTIST CHURCH</h1>
+            <p class="lead mb-4">- Preparing a People for Christ's Return -</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="join-us.html" class="btn btn-gold px-4 py-2">Join Us This Sabbath</a>
+                <a href="sermons.html" class="btn btn-outline-light px-4 py-2">Watch Sermons</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center shadow-sm bg-white rounded overflow-hidden">
+                <div class="col-md-5 p-0">
+                    <img src="church.png" alt="Lupaso SDA Church" class="img-fluid">
+                </div>
+                <div class="col-md-7 p-5">
+                    <h5 class="text-primary">Welcome to <strong>Lupaso SDA Church!</strong></h5>
+                    <p>Established in 1985, our mission is to share the gospel and serve our community with faith and compassion.</p>
+                    <button class="btn btn-dark-blue">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section py-5 text-center text-white">
+        <div class="container">
+            <h2 class="section-divider">Spirit of Prophecy</h2>
+            <div class="sliding-quotes-container my-4 overflow-hidden">
+                <div class="sliding-quotes">
+                    <div class="quote-slide">
+                        <p class="fst-italic h4">"True love is a high and holy principle, altogether different in character from that love which is awakened by impulse and which suddenly dies when severely tested."</p>
+                        <footer class="blockquote-footer mt-2 text-white">— Ellen G. White, <cite>The Adventist Home</cite></footer>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="fst-italic h4">"The grace of Christ is sufficient to bring us back to God, but we must choose to accept it."</p>
+                        <footer class="blockquote-footer mt-2 text-white">— Ellen G. White, <cite>Steps to Christ</cite></footer>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="fst-italic h4">"Prayer is the opening of the heart to God as to a friend."</p>
+                        <footer class="blockquote-footer mt-2 text-white">— Ellen G. White, <cite>Steps to Christ</cite></footer>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="fst-italic h4">"A noble character is not the result of accident, but of continuous, patient, and persevering effort."</p>
+                        <footer class="blockquote-footer mt-2 text-white">— Ellen G. White, <cite>Education</cite></footer>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="text-white text-decoration-none small">Explore More Inspired Writings</a>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="section-divider-dark mb-5">Service Times</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card p-4">
+                        <h4>Sabbath School</h4>
+                        <p class="h5">9:00 AM</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card p-4 active-card">
+                        <h4>Divine Service</h4>
+                        <p class="h5">10:30 AM</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card p-4">
+                        <h4>Midweek Prayer</h4>
+                        <p class="h5">5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-divider-dark mb-5">Latest Sermons</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card sermon-card border-0 shadow-sm">
+                        <img src="image.png" class="card-img-top" alt="Sermon">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">The Blessings of the Sabbath</h5>
+                            <button class="btn btn-dark-blue btn-sm mt-2">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card sermon-card border-0 shadow-sm">
+                        <img src="young.png" class="card-img-top" alt="Sermon">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Walking in Love</h5>
+                            <button class="btn btn-dark-blue btn-sm mt-2">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card sermon-card border-0 shadow-sm">
+                        <img src="children.png" class="card-img-top" alt="Sermon">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Following Jesus</h5>
+                            <button class="btn btn-dark-blue btn-sm mt-2">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-5 text-center">
+        <div class="container">
+            <h2 class="section-divider-dark mb-3">Stay Connected With Lupaso SDA</h2>
+            <p class="mb-4">Get updates, devotionals, and church announcements</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email address...">
+                        <button class="btn btn-dark-blue px-4" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer py-3 bg-dark-blue text-white text-center">
+        <div class="container">
+            <small>&copy; 2026 Lupaso SDA Church • Lupaso, Mzuzu • +265 880 330 700 • info@lupasosda.org</small>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
